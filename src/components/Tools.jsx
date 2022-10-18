@@ -79,19 +79,17 @@ const Grid = styled.div`
 const SkillLogo = styled.div`
   svg {
     width: 16rem;
-    fill: var(--white);
+    fill: var(--offset);
   }
 
   @media screen and (max-width: 900px) {
     svg {
       width: 12rem;
-      fill: var(--black);
     }
   }
   @media screen and (max-width: 600px) {
     svg {
       width: 5rem;
-      fill: var(--black);
     }
   }
 `;

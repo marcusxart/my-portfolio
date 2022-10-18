@@ -18,7 +18,7 @@ const Container = styled.button`
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: 700;
-  background: rgb(46, 39, 177);
+  background: var(--offset);
   color: white;
   cursor: pointer;
   display: flex;
