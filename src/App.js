@@ -1,12 +1,12 @@
 import "./App.css";
 import Nav from "./components/Nav";
-import Landing from "./pages/landing";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <main>
+    <main className="App">
       <Nav />
-      <Landing />
+      <Home />
     </main>
   );
 }

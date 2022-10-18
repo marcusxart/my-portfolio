@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-import wave from "../../assets/images/wave.png";
-import computer from "../../assets/lottie/programmer.json";
-import Button from "../../components/Button";
+import wave from "../assets/images/wave.png";
+import computer from "../assets/lottie/programmer.json";
+import Button from "./Button";
 
-const Header = () => {
+const Home = () => {
   return (
     <Container>
       <SocialLinks>
@@ -48,16 +48,15 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Home;
 
 const Container = styled.div`
   position: relative;
-
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
 `;
 
