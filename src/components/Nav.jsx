@@ -30,7 +30,7 @@ const Nav = () => {
 export default Nav;
 
 const Container = styled.div`
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -38,8 +38,10 @@ const Container = styled.div`
   font-size: 1.8rem;
   padding: 0 5vw;
   z-index: 20;
+  background-color: var(--black);
   @media screen and (max-width: 900px) {
     color: var(--black);
+    background-color: var(--white);
     padding: 0 3vw;
   }
 `;
